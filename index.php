@@ -18,8 +18,9 @@
 <p>Tekst tuleb heading3 alla</p>
     </article>
 
-<aside></aside><h4>Heading 4</h4>
-<p>Tekst tuleb heading4 alla</p></aside>
+<aside><h4>Heading 4</h4>
+<p>Tekst tuleb heading4 alla</p>
+</aside>
 
 <h5>Heading 5</h5>
 <p>Tekst tuleb heading5 alla</p>
@@ -36,7 +37,7 @@
 <address>Kirjutatud Rasmuse poolt
 <br> Selleks kasutasin address tagi</address>
 
-<p>Area tagi võlud on demonstreeritud siin. Vajuta oma lemmik teletupsu nina peale, et saada infot tema kohta.</p>
+<p>Area tagi võlud on demonstreeritud siin. Vajuta oma lemmik teletupsu <b>nina</b> peale, et saada infot tema kohta.</p>
 <img src="assets/img/teletubbies.png" width="max" height="max" alt="Teletubbies" usemap="#tupsumap">
 
 <map name="tupsumap">
@@ -52,6 +53,7 @@
     <source src="assets/audio/Teletubbies.mp3" type="audio/mpeg">
     Teie browseril puudub vastav tugi, et seda kvaliteetset muusikapala kuulata.
 </audio>
+
 
 </body>
 
