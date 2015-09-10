@@ -61,6 +61,9 @@
     “If you think <em>math</em> is hard, try <strong>web design</strong>.” ―Trish Parr
 </blockquote>
 
+<button type="button" onclick="alert('Seda ei tohtinud ju vajutada')">Ära siia vajuta</button>
+
+
 
 </body>
 
