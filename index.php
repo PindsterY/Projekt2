@@ -68,23 +68,43 @@
 </canvas>
 
 <table>
+    <colgroup>
+        <col span="2" style="background-color:red">
+        <col style="background-color:yellow">
+    </colgroup>
     <caption>Tabel</caption>
     <tr>
         <th>Pealkiri#1</th>
         <th>Tiitel#2</th>
+        <th>Mingi#3</th>
     </tr>
     <tr>
         <td>Üks</td>
         <td>Kaks</td>
+        <td>Kolm</td>
     </tr>
     <tr>
         <td>Kolm</td>
         <td>Neli</td>
+        <td>Viis</td>
     </tr>
 </table>
 
+<p><cite>Üleval nähtud tabel oli kindlasti väga kasulik</cite></p>
+<code>Väga keeruline koodijupp tuleb siia</code>
 
+<form action="datalist.asp" method="get">
+    <input list="datalist" name="datalist">
+    <datalist id="datalist">
+        <option value="Rasmus">
+        <option value="On">
+        <option value="Minu">
+        <option value="Nimi">
+        </datalist>
+    <input type="submit">
+</form>
 
+<dd>Mis asi see on?</dd>
 </body>
 
 </html>
