@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<!---- Siia võin hakata kirjutama sisu -->
+<!-- Siia võin hakata kirjutama sisu -->
 <h1>Heading 1</h1>
 <p>Tekst tuleb headingu alla</p>
 
@@ -34,6 +34,16 @@
 
 <address>Kirjutatud Rasmuse poolt
 <br> Selleks kasutasin address tagi</address>
+
+<p>Area tagi võlud on demonstreeritud siin. Vajuta oma lemmik teletupsu nina peale, et saada infot tema kohta.</p>
+<img src="assets/img/teletubbies.png" width="max" height="max" alt="Teletubbies" usemap="#tupsumap">
+
+<map name="tupsumap">
+    <area shape="circle" coords="120,170,20" alt="Tinky" href="http://teletubbies.wikia.com/wiki/Tinky-Winky">
+    <area shape="circle" coords="260,180,20" alt="Dipsy" href="http://teletubbies.wikia.com/wiki/Dipsy">
+    <area shape="circle" coords="400,205,20" alt="Po" href="http://teletubbies.wikia.com/wiki/Po">
+    <area shape="circle" coords="535,170,20" alt="Laalaa" href="http://teletubbies.wikia.com/wiki/Laa-Laa">
+</map>
 
 
 
