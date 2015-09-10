@@ -56,6 +56,7 @@
 
 <br>
 <bdi>See on bdi element</bdi>
+<p>bdo tagi võlu peitub tema sõna ümberpööramis oskuses. <bdo dir="rtl">Kuulilennuteetunneliluuk Sumsar Rasmus.</bdo></p>
 
 
 
