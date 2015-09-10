@@ -63,6 +63,26 @@
 
 <button type="button" onclick="alert('Seda ei tohtinud ju vajutada')">Ära siia vajuta</button>
 
+<br><p>Nüüd demonstreerin Teile canva kastikest:</p>
+<canvas id="essaCanva" width="50" height="50" style="border:5px solid #40cc6f;">Teie browser ei toeta nii uhket tagi
+</canvas>
+
+<table>
+    <caption>Tabel</caption>
+    <tr>
+        <th>Pealkiri#1</th>
+        <th>Tiitel#2</th>
+    </tr>
+    <tr>
+        <td>Üks</td>
+        <td>Kaks</td>
+    </tr>
+    <tr>
+        <td>Kolm</td>
+        <td>Neli</td>
+    </tr>
+</table>
+
 
 
 </body>
