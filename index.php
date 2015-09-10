@@ -32,6 +32,11 @@
 <p>Et täpsemalt teada saada tagide kohta, siis tuleks kasutada <a href="http://www.google.com">Google otsingumootor</a>'i abi</p>
 <p>Samas on otseloomulikult kõige parem ju minna <abbr title="World Wide Web Consortium">W3C</abbr> lehele. </p>
 
+<address>Kirjutatud Rasmuse poolt
+<br> Selleks kasutasin address tagi</address>
+
+
+
 </body>
 
 </html>
