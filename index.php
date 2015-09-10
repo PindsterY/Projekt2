@@ -56,7 +56,7 @@
 
 <br>
 <bdi>See on bdi element</bdi>
-<p>bdo tagi võlu peitub tema sõna ümberpööramis oskuses. <bdo dir="rtl">Kuulilennuteetunneliluuk Sumsar Rasmus.</bdo></p>
+<p>bdo tagi võlu peitub tema sõna ümberpööramise oskuses. <bdo dir="rtl">Kuulilennuteetunneliluuk Sumsar Rasmus.</bdo></p>
 <blockquote cite="www.http://skillcrush.com/2014/10/21/advice-for-web-designers/">
     “If you think <em>math</em> is hard, try <strong>web design</strong>.” ―Trish Parr
 </blockquote>
@@ -104,7 +104,18 @@
     <input type="submit">
 </form>
 
-<dd>Mis asi see on?</dd>
+<del>Või hoopiski del tag</del>
+<details>Detailid ilmuvad siia</details>
+<dfn>MIgja</dfn>
+<dialog>Boom</dialog>
+
+<dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+</dl>
+
 </body>
 
 </html>
