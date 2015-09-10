@@ -8,7 +8,7 @@
 
 <body>
 <!-- Siia võin hakata kirjutama sisu -->
-<h1>Heading 1</h1>
+<article><h1>Heading 1</h1>
 <p>Tekst tuleb headingu alla</p>
 
 <h2>Heading 2</h2>
@@ -16,9 +16,10 @@
 
 <h3>Heading 3</h3>
 <p>Tekst tuleb heading3 alla</p>
+    </article>
 
-<h4>Heading 4</h4>
-<p>Tekst tuleb heading4 alla</p>
+<aside></aside><h4>Heading 4</h4>
+<p>Tekst tuleb heading4 alla</p></aside>
 
 <h5>Heading 5</h5>
 <p>Tekst tuleb heading5 alla</p>
@@ -45,7 +46,12 @@
     <area shape="circle" coords="535,170,20" alt="Laalaa" href="http://teletubbies.wikia.com/wiki/Laa-Laa">
 </map>
 
+<br>
 
+<audio controls>
+    <source src="assets/audio/Teletubbies.mp3" type="audio/mpeg">
+    Teie browseril puudub vastav tugi, et seda kvaliteetset muusikapala kuulata.
+</audio>
 
 </body>
 
