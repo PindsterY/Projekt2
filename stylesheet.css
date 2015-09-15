@@ -4,5 +4,8 @@ table, th, td {
 
 body {
     background-image: url("assets/img/background.jpg");
-    background-color: antiquewhite;
-    }
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: cornsilk;
+           }
+
