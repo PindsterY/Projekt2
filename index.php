@@ -8,6 +8,15 @@
 
 <body>
 <!-- Siia võin hakata kirjutama sisu -->
+<nav>
+    <a href="index.php">Esileht</a> |
+    <a href="http://www.postimees.ee/">Uudised</a> |
+    <a href="http://diarainfra.com/khk/vs15/theindro/projectx/">Project #1</a> |
+    <a href="link4.php">Link #4</a>
+</nav>
+<br>
+<br>
+
 <main>
 <article><h1>Heading 1</h1>
 <p>Tekst tuleb headingu alla</p>
@@ -28,12 +37,12 @@
 <p>Tekst tuleb heading5 alla</p>
 
 <footer><h6>Heading 6</h6>
-<p>Tekst tuleb heading6 alla</p></footer>
+<p>Tekst tuleb <small>heading6</small> alla</p></footer>
 
 <p>Et teha pikk teemat vahetav joon ekraanile, siis kasutan hr tagi</p>
 <hr>
 
-<p>Et täpsemalt teada saada tagide kohta, siis tuleks kasutada <a href="http://www.google.com">Google otsingumootor</a>'i abi</p>
+<p>Et täpsemalt <sub>teada saada</sub> <sup>tagide kohta</sup>, siis tuleks kasutada <a href="http://www.google.com">Google otsingumootor</a>'i abi</p>
 <p>Samas on otseloomulikult kõige parem ju minna <abbr title="World Wide Web Consortium">W3C</abbr> lehele. </p>
 
 <address>Kirjutatud Rasmuse poolt
@@ -115,18 +124,21 @@ Bjarne Stroustrup ütles kord <q>I have always wished for my computer to be as e
 
 <dl>
     <dt>Kohv</dt>
-    <dd>Must kuum jook</dd>
+    <dd>Must <s>kuum</s> jook</dd>
     <dt>Piim</dt>
     <dd>Valge külm jook</dd>
 </dl>
     </div>
 
+<object>
 <iframe width="420" height="315" src="https://www.youtube.com/embed/ouFLhZ2actU" frameborder="0" allowfullscreen></iframe>
+<param name="autoplay" value="true">
+    </object>
 <br>
 
 <form>
     <fieldset>
-        <legend>Kirjuta siia oma andmed:</legend>
+        <legend>Kirjuta <mark>siia</mark> oma andmed:</legend>
         Nimi: <input type="text"><br>
         E-mail: <input type="text" name="E-mail" value="eesN.prknN@khk.ee"><br>
         Sünniaasta: <input type="number">
@@ -151,8 +163,61 @@ Bjarne Stroustrup ütles kord <q>I have always wished for my computer to be as e
         <input type="radio" name="sex" id="parim" value="parim"><br><br>
     </form>
 
+    <select>
+        <optgroup label="WEBPage kujundus">
+            <option value="volvo">Lahe</option>
+            <option value="saab">Super</option>
+        </optgroup>
+        <optgroup label="WEBPage sisu">
+            <option value="mercedes">Parim</option>
+            <option value="audi">Nii vinge</option>
+        </optgroup>
+    </select>
+
     <br>
-<p>Väääääääääääääääääääääääääääääääääääääääääääääääääääääääää<wbr>gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<wbr>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<wbr>PikaaaaaaaaaaaadSõnaaaaaaaaaaaaaadTuleb<wbr>WBR'igaLükataaaaJärkaleRealeeeeee</p>
+<samp>Väääääääääääääääääääääääääääääääääääääääääääääääääääääääää<wbr>gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<wbr>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<wbr>PikaaaaaaaaaaaadSõnaaaaaaaaaaaaaadTuleb<wbr>WBR'igaLükataaaaJärkaleRealeeeeee</samp>
+
+    <p>Selle lehkekülje skoor 1 miljoni Eesti elaniku arust. Ülemine näitab skoori (out of 10) ja alumine näitab valimit Eesti elanike hulgas (%)</p>
+    <meter value="10" min="0" max="10">10 out of 10</meter><br>
+    <meter value="0.95">95%</meter>
+
+    <br>
+
+
+
+    <script>
+        document.write("Jiihaa!")
+    </script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+<p>Kell tag <time>15:00</time></p>
+<br>
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+        <input type="range" id="a" value="50">100
+        +<input type="number" id="b" value="0">
+        =<output name="x" for="a b"></output>
+    </form>
+
+    <pre>Mis            tühikud need on        ?                  (ikka pre tag!)</pre>
+    <br>
+
+
+    <p>Viiruse tõmbamine Teie arvutisse</p>
+    <progress value="78" max="100">
+    </progress>
+
+    <br>
+<summary>Summary</summary>
+    <textarea rows="4" cols="30">
+See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik ilusasti kastikese sisse. Isegi pole vaja kastist välja mõelda!
+
+</textarea>
+    <br></nr><var>Variable</var><br>
+
+    <video width="400" height="200">
+    </video>
+
+
 
 
 
