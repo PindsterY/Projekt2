@@ -8,6 +8,7 @@
 
 <body>
 <!-- Siia võin hakata kirjutama sisu -->
+<main>
 <article><h1>Heading 1</h1>
 <p>Tekst tuleb headingu alla</p>
 
@@ -17,6 +18,7 @@
 <h3>Heading 3</h3>
 <p>Tekst tuleb heading3 alla</p>
     </article>
+    </main>
 
 <aside><h4>Heading 4</h4>
 <p>Tekst tuleb heading4 alla</p>
@@ -25,8 +27,8 @@
 <h5>Heading 5</h5>
 <p>Tekst tuleb heading5 alla</p>
 
-<h6>Heading 6</h6>
-<p>Tekst tuleb heading6 alla</p>
+<footer><h6>Heading 6</h6>
+<p>Tekst tuleb heading6 alla</p></footer>
 
 <p>Et teha pikk teemat vahetav joon ekraanile, siis kasutan hr tagi</p>
 <hr>
@@ -60,6 +62,7 @@
 <blockquote cite="www.http://skillcrush.com/2014/10/21/advice-for-web-designers/">
     “If you think <em>math</em> is hard, try <strong>web design</strong>.” ―Trish Parr
 </blockquote>
+Bjarne Stroustrup ütles kord <q>I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone.</q>
 
 <button type="button" onclick="alert('Seda ei tohtinud ju vajutada')">Ära siia vajuta</button>
 
@@ -125,16 +128,32 @@
     <fieldset>
         <legend>Kirjuta siia oma andmed:</legend>
         Nimi: <input type="text"><br>
-        E-mail: <input type="text"><br>
+        E-mail: <input type="text" name="E-mail" value="eesN.prknN@khk.ee"><br>
         Sünniaasta: <input type="number">
-        <br><button type="button" onclick="alert('Eesti.ee andmetel sellist nime ei eksisteeri. Kirjuta palun ikka õiged andmed!')">Vajuta siia!</button>
+        <br><button type="button" onclick="alert('Naljakas nimi Teil, noormees. Eesti.ee andmetel sellist nime ei eksisteeri. Kirjuta palun ikka õiged andmed!')">Vajuta siia!</button>
     </fieldset>
     </form>
 
 <figure>
     <img src="assets/img/taaramae.jpg" alt="Rein Taaramäe" width="50%" height="50%">
-    <figcaption>Fig.1 - Rein Taaramäe Tour de Francel tõusu sõitmas.</figcaption>
+    <figcaption>Fig.1 - Rein Taaramäe <i>Tour de Francel</i> <ins>tõusu</ins> sõitmas.</figcaption>
 </figure>
+<br>
+<kbd>Keyboard input</kbd>
+<br>
+<keygen name="Nupp"> <br>
+
+    <p>Vali, kuidas sulle see webpage meeldib:</p>
+    <form action="demo_form.asp">
+        <label for="lahe">Väga lahe</label>
+        <input type="radio" name="sex" id="lahe" value="lahe"><br>
+        <label for="Parim">Parim lehekülg</label>
+        <input type="radio" name="sex" id="parim" value="parim"><br><br>
+    </form>
+
+    <br>
+<p>Väääääääääääääääääääääääääääääääääääääääääääääääääääääääää<wbr>gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<wbr>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<wbr>PikaaaaaaaaaaaadSõnaaaaaaaaaaaaaadTuleb<wbr>WBR'igaLükataaaaJärkaleRealeeeeee</p>
+
 
 
 </body>
