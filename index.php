@@ -91,7 +91,7 @@
 </table>
 
 <p><cite>Üleval nähtud tabel oli kindlasti väga kasulik</cite></p>
-<code>Väga keeruline koodijupp tuleb siia</code>
+<code>Siit saad saata päringut!</code>
 
 <form action="datalist.asp" method="get">
     <input list="datalist" name="datalist">
@@ -104,17 +104,38 @@
     <input type="submit">
 </form>
 
+<div>
 <del>Või hoopiski del tag</del>
 <details>Detailid ilmuvad siia</details>
-<dfn>MIgja</dfn>
-<dialog>Boom</dialog>
+<dfn>DFN tag</dfn>
+<dialog>Dialog tag</dialog>
 
 <dl>
-    <dt>Coffee</dt>
-    <dd>Black hot drink</dd>
-    <dt>Milk</dt>
-    <dd>White cold drink</dd>
+    <dt>Kohv</dt>
+    <dd>Must kuum jook</dd>
+    <dt>Piim</dt>
+    <dd>Valge külm jook</dd>
 </dl>
+    </div>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/ouFLhZ2actU" frameborder="0" allowfullscreen></iframe>
+<br>
+
+<form>
+    <fieldset>
+        <legend>Kirjuta siia oma andmed:</legend>
+        Nimi: <input type="text"><br>
+        E-mail: <input type="text"><br>
+        Sünniaasta: <input type="number">
+        <br><button type="button" onclick="alert('Eesti.ee andmetel sellist nime ei eksisteeri. Kirjuta palun ikka õiged andmed!')">Vajuta siia!</button>
+    </fieldset>
+    </form>
+
+<figure>
+    <img src="assets/img/taaramae.jpg" alt="Rein Taaramäe" width="50%" height="50%">
+    <figcaption>Fig.1 - Rein Taaramäe Tour de Francel tõusu sõitmas.</figcaption>
+</figure>
+
 
 </body>
 
