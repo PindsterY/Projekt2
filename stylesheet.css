@@ -7,6 +7,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: cornsilk;
+    border: 100px solid #fafffb;
+    cursor: crosshair;
            }
 
 h1 {
@@ -15,32 +17,43 @@ h1 {
     margin-left: 5px;
     margin-bottom: 15px;
     font-family: Verdana, sans-serif;
+    font-feature-settings: on;
+    font-size-adjust: 1;
 }
 
 h2 {
-    border: 10px solid black;
+    border: 10px;
+    border-color: blueviolet;
+    border-image: round;
     background-color: aqua;
     margin-left: 5px;
     margin-bottom: 15px;
     font-family: Verdana, sans-serif;
+    font-style: italic;
+    font-variant: all-small-caps;
 }
 h3 {
     border: 10px solid black;
-    background-color: aqua;
+    background-color: #32a1ff;
     margin-left: 5px;
     margin-bottom: 15px;
     font-family: Verdana, sans-serif;
+    font-stretch: ultra-condensed;
+    font-size: 20;
+    font-synthesis: style;
 }
 h4 {
     border: 10px solid black;
-    background-color: aqua;
+    background-color: #33ff23;
     margin-left: 5px;
     margin-bottom: 15px;
     font-family: Verdana, sans-serif;
+    font-variant-ligatures: no-common-ligatures;
+    font-variant-position: none;
 }
 h5 {
     border: 10px solid black;
-    background-color: aqua;
+    background-color: #ff51a3;
     margin-left: 5px;
     margin-bottom: 15px;
     font-family: Verdana, sans-serif;
@@ -48,8 +61,50 @@ h5 {
 
 h6 {
     border: 10px solid black;
-    background-color: aqua;
+    background-color: #f1ff2e;
     margin-left: 5px;
     margin-bottom: 15px;
     font-family: Verdana, sans-serif;
 }
+
+p {
+    margin: 10px 10px 10px 10px;
+    border: 5px #33ff23;
+    letter-spacing: 2px;
+    hanging-punctuation: first;
+    line-break: auto;
+    tab-size: 3px;
+    text-align: left;
+    text-align-last: start;
+    text-combine-upright: none;
+    text-indent: each-line;
+    text-justify: kashida;
+    text-transform: none;
+    white-space: nowrap;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-spacing: inherit;
+    word-wrap: break-word;
+}
+
+nav {
+    background-color: aliceblue;
+    text-align: center;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    background-repeat:no-repeat;
+    background-image:none;
+    text-decoration: none;
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    margin-left: 115px;
+    box-shadow: 5px 5px 5px #498857;
+    position:static;
+    visibility: visible;
+    z-index: auto;
+}
+

@@ -9,7 +9,7 @@
 <body>
 <!-- Siia võin hakata kirjutama sisu -->
 <nav>
-    <a href="index.php">Esi.leht</a> |
+    <a href="index.php">Esileht</a> |
     <a href="http://www.postimees.ee/">Uudised</a> |
     <a href="http://diarainfra.com/khk/vs15/theindro/projectx/">Project #1</a> |
     <a href="link4.php">Link #4</a>
