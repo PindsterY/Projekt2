@@ -4,10 +4,14 @@ table, th, td {
 
 body {
     background-image: url("assets/img/background.jpg");
+    background-size: 1200px 800px;
+    background-repeat: repeat;
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-origin: content-box;
     background-color: cornsilk;
-    border: 100px solid #fafffb;
+    border: 120px solid #fafffb;
+    border-bottom-style: dotted;
     cursor: crosshair;
            }
 
@@ -105,6 +109,61 @@ nav {
     box-shadow: 5px 5px 5px #498857;
     position:static;
     visibility: visible;
-    z-index: auto;
+    z-index: auto
+    }
+
+img {
+    image-rendering: auto;
+    image-resolution: from-image;
+    object-fit: none;
 }
 
+{
+    voice-family: paul;
+    voice-stress: moderate;
+    voice-volume: -6dB;
+}
+
+#main {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #c3c3c3;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main div {
+    width: 50px;
+    height: 50px;
+}
+
+
+button#b1 {
+    top: 20%; left: 25%;
+    nav-index: 1;
+    nav-right: #b2; nav-left: #b4;
+    nav-down: #b2; nav-up: #b4;
+}
+
+button#b2 {
+    top: 40%; left: 50%;
+    nav-index: 2;
+    nav-right: #b3; nav-left: #b1;
+    nav-down: #b3; nav-up: #b1;
+}
+
+button#b3 {
+    top: 70%; left: 25%;
+    nav-index: 3;
+    nav-right: #b4; nav-left: #b2;
+    nav-down: #b4; nav-up: #b2;
+}
+
+button#b4 {
+    top: 40%; left: 0%;
+    nav-index: 4;
+    nav-right: #b1; nav-left: #b3;
+    nav-down: #b1; nav-up: #b3;
+}

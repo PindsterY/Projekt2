@@ -19,7 +19,7 @@
 
 <main>
 <article><h1>Heading 1</h1>
-<p>Tekst tuleb headingu alla</p>
+<p>Tekst tuleb headingu alla -></p>
 
 <h2>Heading 2</h2>
 <p>Tekst tuleb heading2 alla</p>
@@ -216,6 +216,22 @@ See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik i
 
     <video width="400" height="200">
     </video>
+
+    <br>
+    <div id="main">
+        <div style="background-color:coral;">A</div>
+        <div style="background-color:lightblue;">B</div>
+        <div style="background-color:khaki;">C</div>
+        <div style="background-color:pink;">D</div>
+        <div style="background-color:lightgrey;">E</div>
+        <div style="background-color:lightgreen;">F</div>
+    </div>
+<br>
+    <button id="b1">Nupp 1</button>
+    <button id="b2">Nupp 2</button>
+    <button id="b3">Nupp 3</button>
+    <button id="b4">Nupp 4</button>
+    <br>
 
 
 
