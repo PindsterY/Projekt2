@@ -212,4 +212,10 @@ button#b4 {
     marquee-play-count;
     marquee-speed;
     marquee-style;
+    mask-type;
+    mark;
+    mark-after;
+    rest-after;
+    voice-balance;
+    voice-pitch;
 }
