@@ -218,4 +218,18 @@ button#b4 {
     rest-after;
     voice-balance;
     voice-pitch;
+    z-index;
+    flex-basis;
+    hanging-punctuation;
+    letter-spacing;
+    line-break;
+    line-height;
+    overflow-wrap;
+    tab-size;
+    word-wrap;
+    text-decoration-color: #33ff23;
+    font-style: italic;
+    font-variant-alternates: historical-forms;
+    text-combine-upright;
+
 }
