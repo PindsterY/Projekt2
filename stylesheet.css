@@ -231,5 +231,15 @@ button#b4 {
     font-style: italic;
     font-variant-alternates: historical-forms;
     text-combine-upright;
-
+    box-sizing;
+    ime-mode ;
+    nav-down;
+    outline-offset;
+    outline-style;
+    outline-width;
+    transition-timing-function;
+    transform-origin;
+    column-rule-width;
+    page-break-inside;
+    image-resolution;
 }
