@@ -167,3 +167,49 @@ button#b4 {
     nav-right: #b1; nav-left: #b3;
     nav-down: #b1; nav-up: #b3;
 }
+
+.tagid {
+    font-color: red;
+    background-color: #f1ff2e;
+    background-repeat;
+    background-clip;
+    background-origin;
+    background-size;
+    border border-bottom;
+    border-bottom-color;
+    border-bottom-left-radius;
+    border-bottom-right-radius;
+    border-bottom-style;
+    border-bottom-width;
+    border-color;
+    border-image;
+    border-image-outset;
+    border-image-repeat;
+    border-image-slice;
+    border-image-source;
+    border-image-width;
+    border-left Sets;
+    border-left-color;
+    border-left-style;
+    border-left-width;
+    border-radius;
+    bottom;
+    clear;
+    clip;
+    display;
+    float;
+    height
+    left;
+    margin;
+    margin-bottom;
+    margin-left;
+    margin-right;
+    margin-top;
+    max-width;
+    min-width;
+    overflow;
+    marquee-direction;
+    marquee-play-count;
+    marquee-speed;
+    marquee-style;
+}
