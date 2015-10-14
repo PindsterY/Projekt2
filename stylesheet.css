@@ -274,5 +274,5 @@ button#b4 {
     resize;
     text-overflow;
     thead;
-    border-right-color,border-right-style,border-right-width,border-style,border-top-color,border-top-style,border-top-width,border-width,box-decoration-break,overflow-x,overflow-y,font-kerning,column-count,column-fill,column-gap,column-rule-color,column-rule-style,caption-side,empty-cells,table-layout,counter-increment,counter-reset,perspective,perspective-origin,transform-style,outline-color,break-after,break-before,page-break-after,page-break-before,filter,track
+    border-right-color,border-top-color,border-top-style,border-top-width,border-width,box-decoration-break,overflow-x,overflow-y,font-kerning,column-count,column-fill,column-gap,column-rule-color,column-rule-style,caption-side,empty-cells,table-layout,counter-increment,counter-reset,perspective,perspective-origin,transform-style,outline-color,break-after,break-before,page-break-after,page-break-before,filter,track
 }
