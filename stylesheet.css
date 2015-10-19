@@ -277,7 +277,13 @@ button#b4 {
     border-right-color: none;
 ,border-top-color: none;
 ,border-top-style,border-top-width,
-border-width,box-decoration-break,overflow-x,overflow-y,font-kerning,column-count,column-fill,column-gap,column-rule-color,column-rule-style,caption-side,empty-cells,table-layout,
+border-width: none;
+    box-decoration-break,overflow-x,overflow-y,font-kerning,column-count,column-fill,
+    column-gap,column-rule-color,
+    column-rule-style,
+    caption-side: none;
+empty-cells,table-layout,
 counter-increment: none;
-,counter-reset,perspective,perspective-origin,transform-style,outline-color,break-after,break-before,page-break-after,page-break-before,filter,track
+counter-reset: none;
+perspective,perspective-origin,transform-style,outline-color,break-after,break-before,page-break-after,page-break-before,filter,track
 }
