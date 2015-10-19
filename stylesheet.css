@@ -278,12 +278,24 @@ button#b4 {
 ,border-top-color: none;
 ,border-top-style,border-top-width,
 border-width: none;
-    box-decoration-break,overflow-x,overflow-y,font-kerning,column-count,column-fill,
-    column-gap,column-rule-color,
+    box-decoration-break,
+    overflow-x,overflow-y,
+    font-kerning,
+    column-count,column-fill,
+    column-gap,
+    column-rule-color,
     column-rule-style,
     caption-side: none;
 empty-cells,table-layout,
 counter-increment: none;
 counter-reset: none;
-perspective,perspective-origin,transform-style,outline-color,break-after,break-before,page-break-after,page-break-before,filter,track
+perspective,
+perspective-origin,
+transform-style,
+outline-color: none;
+break-after,
+break-before: none;
+page-break-after,
+page-break-before,
+filter,track
 }
