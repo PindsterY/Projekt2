@@ -237,6 +237,19 @@ See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik i
 
     <p class="tagid">Tagid</p>
 
+    <base> <header> <thead></thead> <tbody> <tfoot></tfoot> <u> <ul> <li></li> <ol></ol> <embed> <section></section>
+                    <border-style>
+                    <align-self></align-self> <flex-direction></flex-direction> <flex-flow></flex-flow>
+                        <flex-grow></flex-grow> <flex-shrink></flex-shrink> <hyphens></hyphens>
+                        <style></style> <span></span> <track>
+                        @font-face @keyframes
+                        <animation-delay></animation-delay> <animation-direction></animation-direction>
+                        <animation-duration></animation-duration> <animation-name></animation-name>
+                        <backface-visibility></backface-visibility>
+                        <transition-property></transition-property> <transition-duration></transition-duration>
+
+
+
 
 </body>
 
