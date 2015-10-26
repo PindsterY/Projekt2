@@ -235,7 +235,7 @@ See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik i
     <br>
     </section>
 
-    <marquee behavior="alternate"><marquee width="200">Uus Marquee</marquee></marquee>
+    <marquee behavior="alternate"><marquee width="200">Uus <span style="color:blue">Marquee</span></marquee></marquee>
 
     <p class="tagid">Tagid</p>
 
