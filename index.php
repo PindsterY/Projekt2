@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+      <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
     <title>Projekt 2</title>
 </head>
@@ -227,15 +227,18 @@ See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik i
         <div style="background-color:lightgreen;">F</div>
     </div>
 <br>
+    <section>
     <button id="b1">Nupp 1</button>
     <button id="b2">Nupp 2</button>
     <button id="b3">Nupp 3</button>
     <button id="b4">Nupp 4</button>
     <br>
+    </section>
 
     <marquee behavior="alternate"><marquee width="200">Uus Marquee</marquee></marquee>
 
     <p class="tagid">Tagid</p>
+
 
     <base> <header> <thead></thead> <tbody> <tfoot></tfoot> <u> <ul> <li></li> <ol></ol> <embed> <section></section>
                     <border-style>
