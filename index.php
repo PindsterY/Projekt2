@@ -209,8 +209,7 @@ Bjarne Stroustrup ütles kord <q>I have always wished for my computer to be as e
     <br>
 <summary>Summary</summary>
     <br>
-    @font-face {
-    }
+
     <textarea rows="4" cols="30">
 See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik ilusasti kastikese sisse. Isegi pole vaja kastist välja mõelda!
 
@@ -240,7 +239,7 @@ See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik i
 
     <marquee behavior="alternate"><marquee width="200">Uus <span style="color:blue">Marquee</span></marquee></marquee>
 
-    <p class="tagid">Tagid</p>
+    <p class="tagid">boom</p>
 
 
     <base> <header> <thead></thead> <tbody> <tfoot></tfoot> <u> <ul> <li></li> <ol></ol> <embed> <section></section>

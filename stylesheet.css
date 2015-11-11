@@ -298,6 +298,9 @@ break-before: none;
 page-break-after,
 page-break-before,
 filter,track
+column-width: none;
+    transition-delay: none;
+    order: inherit;
 }
 
 @keyframes mymove {
@@ -305,3 +308,7 @@ filter,track
     to {left: 200px;}
 animation-name: mymove;
 }
+
+@font-face {
+    font-family: myFirstFont;
+   }
