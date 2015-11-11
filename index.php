@@ -208,6 +208,9 @@ Bjarne Stroustrup ütles kord <q>I have always wished for my computer to be as e
 
     <br>
 <summary>Summary</summary>
+    <br>
+    @font-face {
+    }
     <textarea rows="4" cols="30">
 See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik ilusasti kastikese sisse. Isegi pole vaja kastist välja mõelda!
 
@@ -249,6 +252,8 @@ See on väga mugav textarea tag, kuhu saab kirjutada kõigest. Ilmub see kõik i
                         <animation-duration></animation-duration> <animation-name></animation-name>
                         <backface-visibility></backface-visibility>
                         <transition-property></transition-property> <transition-duration></transition-duration>
+                        <order> </order>,
+                                               , <transition-delay></transition-delay>, <column-width></column-width>, <columns> </columns>
 
 
 
